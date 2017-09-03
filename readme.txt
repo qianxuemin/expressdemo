@@ -9,5 +9,3 @@ npm install --save swig  //模板引擎
 
 执行npm install 后
 node app.js可进行测试 
-
-express中间件  next()  类似踩一个个小石头过河 串联起来达到终点
