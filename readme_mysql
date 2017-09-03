@@ -3,3 +3,5 @@
 2、修改密码:进入安装目录/xampp/phpMyadmin/config.inc.php
 3、浏览器访问localhost,进入phpmyadmin
 4、新建数据库:myexpress ,表:userinfo
+
+当前使用的mysql模块  orm模块也很好用不需要写sql
