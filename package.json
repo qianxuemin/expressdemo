@@ -1,0 +1,15 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "my express demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qianxuemin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "swig": "^1.4.2"
+  }
+}

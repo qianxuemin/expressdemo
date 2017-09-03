@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block title %}index {{title}} {%endblock%}
+
+{% block head %}
+<link rel="stylesheet" href="stylesheets/index.css">
+<script src="scripts/index.js"></script>
+{% endblock %}
+
+{% block content %}
+<form>
+  <div class="form-group">
+    <label for="username">用户名</label>
+    <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名">
+  </div>
+  <button type="submit" id="btnsubmit" class="btn btn-info">{{data}}</button>
+</form>
+{% endblock %}
